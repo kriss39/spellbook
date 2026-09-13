@@ -10,6 +10,7 @@
     )
 }}
 -- dbt model 
+-- ci-stamp: 1 (seed version fixed so the check_seed test is no longer filtered to zero rows)
 {{
     uniswap_compatible_v2_trades(
         blockchain = 'arbitrum',
